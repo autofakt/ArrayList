@@ -1,0 +1,23 @@
+1. Contructed an empty list with capacity set to 100:
+2. Call to isEmpty(): 1
+3. Call to size() gives us a value of: 0
+4. Adding 23, 42, 14, & 33 to the list using add(int item): 
+[ 23 42 14 33 ]
+5. Adding 99 to the position 1 using add(int pos, int item): 
+[ 23 99 42 14 33 ]
+6. Adding 100 to the position 5 using add(int pos, int item): 
+[ 23 99 42 14 33 100 ]
+7. Removing element at position 2 using remove(int pos): 
+[ 23 99 14 33 100 ]
+8. Removing element at position 0 using remove(int pos): 
+[ 99 14 33 100 ]
+9. Removing element at position 3 using remove(int pos): 
+[ 99 14 33 ]
+10. Checking if list contains item 33 using contains(): 1
+11. Checking if list contains item 111 using contains(): 0
+12. Call to size() gives us a value of: 3
+13. Call to isEmpty(): 0
+14. Calling get(2) to get value at index 2: 33
+invalid position in get()
+
+
